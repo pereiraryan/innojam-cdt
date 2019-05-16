@@ -1,0 +1,28 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+
+#temp
+/Applications/MAMP/htdocs/innojam/frontend/material-dashboard-react
+
+
+# dependencies
+/Applications/MAMP/htdocs/innojam/frontend/node_modules
+
+# testing
+/Applications/MAMP/htdocs/innojam/frontend/coverage
+/Applications/MAMP/htdocs/innojam/plain/*
+
+# production
+/Applications/MAMP/htdocs/innojam/frontend/build
+
+# misc
+/Applications/MAMP/htdocs/innojam/frontend/.DS_Store
+/Applications/MAMP/htdocs/innojam/frontend/.env.local
+/Applications/MAMP/htdocs/innojam/frontend/.env.development.local
+/Applications/MAMP/htdocs/innojam/frontend/.env.test.local
+/Applications/MAMP/htdocs/innojam/frontend/.env.production.local
+.DS_Store
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
